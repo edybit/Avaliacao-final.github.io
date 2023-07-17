@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comandos git</title>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Final-Git</title>
 </head>
 <body>
+    <header>
+        <div id="area-cabecalho">
+		
+            <div id="area-logo">
+                <h1>Comandos <span class="branco">Git</span></h1>
+            </div>
     
+        </div>
+
+        <img src="imagens/git.png" alt="imagem da logo do git">
+    </header>
+    <section>
+    <div>
+    <h2>O que é o GIT?</h2>
+        <p>
+            O git é um sistema de controle de versão de códigos. Gerencia ramificações feitas por diferentes pessoas de um time de modo a manter a ordem e integração de todas as partes. Ou seja, mesmo que várias pessoas estejam trabalhando em um programa ao mesmo tempo, ainda é possível controlar as mudanças para evitar erros.
+        </p>
+
+        <p>Além disso, o git é um sistema que permite rastrear alterações e manter um histórico dessas alterações para possibilitar voltar a uma versão estável sempre que ocorrer um problema. Ou seja, caso algum erro quebre o sistema em desenvolvimento, é viável voltar para a versão funcional saudável.</p>
+        <p>
+            Para facilitar o uso e entendimento dessa ferramenta, abaixo segue uma lista das principais coisas que você precisa saber para poder utilizar dessa ferramenta: 
+        </p>
+        <ul>
+            <li>Repositório: São espaços criados para armazenar seus códigos</li>
+            <li>Branch: É o nome dado a uma versão/ramificação do projeto</li>
+            <li>Merge: Comando responsável por unir modificações para a branch principal</li>
+        </ul>
+    </div>
+    </section>
+    <section>
+    <div>
+    <h2>Comandos git que você precisa saber</h2>
+        <p>Agora que conhecemos alguns termos a respeito do <strong>GIT</strong>, que tal aprendermos seus comandos mais básicos?</p>
+        <ul>
+            <li>Init: Esse comando cria um repositório novo, seja ele remoto ou local, ou reinicializa um repositório já existente;</li>
+            <li>Clone: Como o nome sugere, este comando clona o código do repositório para manipulação em outro ambiente;</li>
+            <li>Commit: Este comando move os arquivos da <em>State Area</em> para um repositório local;</li>
+            <li>Add: Já este comando, como sugere seu nome, adiciona um arquivo para a chamada <em>Staging Area</em>, ou seja, o prepara para um <strong>Commit;</strong></li>
+            <li>Push: Envia os arquivos do repositório local para o remoto;</li>
+            <li>Pull: Este faz o contrário do Push, ele move arquivos de repositórios remotos para locais;</li>
+            <li>Merge: Serve para unir arquivos alterados ao arquivo original, básicamente unir os commits com a branch principal, na maioria dos casos;</li>
+            <li>Log: Permite ver o histórico de commits de um arquivo ou usuário;</li>
+        </ul>
+    </div>    
+    </section>    
 </body>
 </html>
